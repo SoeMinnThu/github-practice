@@ -1,3 +1,3 @@
 # github-practice
 SoeMinnThu
-Blood Type B
+Blood Type AB
