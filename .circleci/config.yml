@@ -25,6 +25,8 @@ workflows:
        - run: sleep 15
  workflows:
   # Name the workflow "welcome"
+    welcome:
+    # Run the welcome/run job in its own container
    version: 2
    one_and_two:
      jobs:
