@@ -17,7 +17,7 @@ jobs:
         steps:
             - checkout
             # CircleCI に登録した秘密鍵を呼び出す
-            - add_ssh_keys:
+            - add_ssh_keys: 60:27:eb:32:c0:a4:8d:40:37:87:77:b9:e5:90:fe:89
             # CircleCI に登録した環境変数を使って SSH
             - run: ssh ${SoeMinnThu}@${github-practice.git} 'cd [git@github.com:SoeMinnThu/github-practice.git] && git pull'
  
